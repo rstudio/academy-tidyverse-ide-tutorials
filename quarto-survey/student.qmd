@@ -1,0 +1,30 @@
+---
+title: "Analysis of Palmer Penguins"
+author: Your favorite colleague
+format: html
+knitr:
+  opts_chunk:
+    echo: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(palmerpenguins)
+```
+
+## Exploring the data
+
+The `penguins` data set comes from the palmerpenguins package. We can examine the it below. This data set has `nrow(penguins)` rows.
+
+```{r}
+penguins
+```
+
+### Removing missing values
+
+The data set has some observations with missing values for body mass. We will filter those out below.
+
+```{r}
+filter(penguins, !is.na(body_mass_g))
+```

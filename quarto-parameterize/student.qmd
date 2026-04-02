@@ -1,0 +1,15 @@
+---
+title: "Texas housing sales report"
+format: html
+params:
+   city: "Abilene"
+knitr:
+  opts_chunk:
+    echo: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+```
