@@ -14,10 +14,10 @@ git clone https://github.com/rstudio/academy-tidyverse-ide-tutorials.git
 
 | Folder | Starter File | Tutorial |
 |--------|-------------|----------|
-| `quarto-survey/` | `penguins.qmd` | Quarto basics: rendering, markdown, chunk options |
-| `quarto-parameterize/` | `tx-housing.qmd` | Parameterized Quarto reports |
-| `quarto_layouts/` | `sleep.qmd` | Quarto document layouts: columns, tabsets, callouts, margins |
-| `quarto_slideshow/` | `storms.qmd` | Reveal.js slide presentations in Quarto |
+| `01-quarto-survey/` | `penguins.qmd` | Quarto basics: rendering, markdown, chunk options |
+| `02-quarto-layouts/` | `sleep.qmd` | Quarto document layouts: columns, tabsets, callouts, margins |
+| `03-quarto-parameterize/` | `tx-housing.qmd` | Parameterized Quarto reports |
+| `04-quarto-slideshow/` | `storms.qmd` | Reveal.js slide presentations in Quarto |
 
 Each folder contains a starter `.qmd` file and any images or data needed for that tutorial.
 
