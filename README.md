@@ -2,6 +2,8 @@
 
 Starter files for Posit Academy Tidyverse IDE tutorials. These tutorials run in your browser but ask you to work with files in your IDE (Positron or RStudio) alongside the tutorial.
 
+**By accessing these Posit Academy course materials, you agree to Posit's [End User License Agreement](https://posit.co/about/eula/) and [Learning Services Agreement](https://posit.co/learning-services-agreement/).**
+
 ## Setup
 
 Clone this repository in a Terminal on Posit Workbench:
